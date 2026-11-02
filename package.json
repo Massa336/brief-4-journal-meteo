@@ -1,0 +1,17 @@
+{
+  "name": "brief-4-journal-meteo",
+  "version": "1.0.0",
+  "description": "Journal météorologique de la ferme en ligne de commande",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node app.js",
+    "test": "node --test",
+    "test:registre": "node --test test/registre.test.js",
+    "test:recherche": "node --test test/recherche.test.js",
+    "test:synthese": "node --test test/synthese.test.js",
+    "test:stockage": "node --test test/stockage.test.js",
+    "test:bonus": "node --test test/bonus.test.js",
+    "test:outils": "node --test test/outils.test.js"
+  }
+}

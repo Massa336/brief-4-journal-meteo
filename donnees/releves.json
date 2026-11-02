@@ -1,0 +1,72 @@
+[
+  {
+    "id": "M01",
+    "date": "2026-10-15",
+    "temperatureC": 27,
+    "pluieMm": 0,
+    "humiditeAirPct": 75
+  },
+  {
+    "id": "M02",
+    "date": "2026-10-16",
+    "temperatureC": 28,
+    "pluieMm": 5,
+    "humiditeAirPct": 78
+  },
+  {
+    "id": "M03",
+    "date": "2026-10-17",
+    "temperatureC": 26,
+    "pluieMm": 12,
+    "humiditeAirPct": 82
+  },
+  {
+    "id": "M04",
+    "date": "2026-10-18",
+    "temperatureC": 29,
+    "pluieMm": 0,
+    "humiditeAirPct": 70
+  },
+  {
+    "id": "M05",
+    "date": "2026-10-19",
+    "temperatureC": 27,
+    "pluieMm": 3,
+    "humiditeAirPct": 80
+  },
+  {
+    "id": "M06",
+    "date": "2026-10-20",
+    "temperatureC": 30,
+    "pluieMm": 0,
+    "humiditeAirPct": 68
+  },
+  {
+    "id": "M07",
+    "date": "2026-10-21",
+    "temperatureC": 28,
+    "pluieMm": 8,
+    "humiditeAirPct": 76
+  },
+  {
+    "id": "M08",
+    "date": "2026-10-22",
+    "temperatureC": 26,
+    "pluieMm": 15,
+    "humiditeAirPct": 85
+  },
+  {
+    "id": "M09",
+    "date": "2026-10-23",
+    "temperatureC": 29,
+    "pluieMm": 0,
+    "humiditeAirPct": 72
+  },
+  {
+    "id": "M10",
+    "date": "2026-10-24",
+    "temperatureC": 30,
+    "pluieMm": 2,
+    "humiditeAirPct": 74
+  }
+]
