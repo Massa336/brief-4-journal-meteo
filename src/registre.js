@@ -22,7 +22,7 @@ export function listerReleves(releves) {
   }
 
 
-// Renvoie le relevé qui a cet identifiant, ou undefined s'il n'existe pas.
+ // Renvoie le relevé qui a cet identifiant, ou undefined s'il n'existe pas.
 export function trouverParId(releves, id) {
    return releves.find((releve) => releve.id === id); // find s'arrête au premier trouvé
 }
@@ -33,13 +33,13 @@ export function trouverParId(releves, id) {
 // Règles : id obligatoire et unique · date réelle au format AAAA-MM-JJ · temperatureC nombre
 // (négatif ou décimal accepté) · pluieMm nombre positif ou nul · humiditeAirPct nombre entre 0 et 100.
 // Un message par règle non respectée ; n'ajoutez aucune autre règle. Le journal reçu n'est pas modifié.
-export function verifierReleve(saisie, releves) {
+   export function verifierReleve(saisie, releves) {
   const erreurs = [];
   
     const id = String(saisie.id ?? '').trim();
     if (id === '') {
       erreurs.push("L'identifiant est obligatoire.");
-    } else if (trouverParId(releves, id) !== undefined) {
+   } else if (trouverParId(releves, id) !== undefined) {
       erreurs.push(`L'identifiant ${id} existe déjà dans le journal.`);
     }
   
@@ -47,7 +47,7 @@ export function verifierReleve(saisie, releves) {
       erreurs.push('La date doit être une date réelle au format AAAA-MM-JJ.');
     }
   
-    // versNombre('') vaut NaN (alors que Number('') vaut 0) : un champ vide est donc refusé.
+     //versNombre('') vaut NaN (alors que Number('') vaut 0) : un champ vide est donc refusé.
     const temperature = versNombre(saisie.temperatureC);
     if (Number.isNaN(temperature)) {
       erreurs.push('La température doit être un nombre (en °C).');
