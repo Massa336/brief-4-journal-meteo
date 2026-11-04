@@ -19,7 +19,7 @@ function afficherAccueil() {
   console.log('='.repeat(50));
 }
 
-/*function afficherMenu() {
+function afficherMenu() {
   console.log('');
   console.log('--------------------- MENU ---------------------');
   console.log('1. Ajouter un relevé');
@@ -32,7 +32,7 @@ function afficherAccueil() {
   console.log('0. Quitter');
 }
 
-async function ajouter(releves) {
+/*async function ajouter(releves) {
   console.log('--- Ajouter un relevé ---');
   const id = await demander('Identifiant (ex. M11) : ');
   if (id === null) return;
