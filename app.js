@@ -19,7 +19,7 @@ function afficherAccueil() {
   console.log('='.repeat(50));
 }
 
-function afficherMenu() {
+/*function afficherMenu() {
   console.log('');
   console.log('--------------------- MENU ---------------------');
   console.log('1. Ajouter un relevé');
