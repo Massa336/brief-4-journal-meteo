@@ -4,6 +4,6 @@
 
 | Ce que je cherchais | Où | Ce que j'ai compris | Utilisé dans |
 | --- | --- | --- | --- |
-| ✏️ | | | |
-| ✏️ | | | |
-| ✏️ | | | |
+| Asynchrone |IA |asynchrone permet a js de continuer a executer les autres instructions pendant cette attente . |dans fiche stockage pour attende l'exporp du fiche json |
+|Objet  |[MDN] |un object est une structure de donnees qui permet de regrouper plusieur information dans une seul variable. |j'ai utilise pour regroupe id, date, pluie, temperature, humiditeAir dans le variable releve |
+| find |IA |renvoi la premier element qui verifie la condition dans une tableau |j'ai utilise pour trouver releve date  |
