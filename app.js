@@ -92,7 +92,7 @@ async function rechercher(releves) {
   }
 }
 
-/*async function trier(releves) {
+async function trier(releves) {
   console.log(`--- Trier ---`);
   console.log(`1.Par température croissante`);
   console.log(`2.Pluie croissante`);
@@ -112,7 +112,7 @@ async function rechercher(releves) {
   
 }
 
-function synthese(releves) {
+/*function synthese(releves) {
   console.log('--- Synthèse de la série ---');
   console.log(`Nombre de relevés : ${releves.length}`);
 
