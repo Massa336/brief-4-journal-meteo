@@ -12,4 +12,4 @@
 
 **Listes de valeurs autorisées** : Aucune
 
-**Sources** :  SUJET.md (section « Les données »), donnees/releves.json, fiche de station remise par le coach agronomie.
+**Sources** :  SUJET.md (section « Les données »),donnees/releves.json, Fiche D « Station météo et irrigation » relevés collectés en travail de groupe lors de la journée parcelle.
