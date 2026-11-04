@@ -151,7 +151,7 @@ async function supprimer(releves) {
   console.log(`Relevé ${id} supprimé. Le journal compte ${releves.length} relevé(s).`);
 }
 
-/*async function modifier(releves) {
+async function modifier(releves) {
   const saisi = await demander('Identifiant : ');
   if (saisi === null) return;
   const id = saisi.toUpperCase();
