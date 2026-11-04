@@ -32,7 +32,7 @@ function afficherMenu() {
   console.log('0. Quitter');
 }
 
-/*async function ajouter(releves) {
+async function ajouter(releves) {
   console.log('--- Ajouter un relevé ---');
   const id = await demander('Identifiant (ex. M11) : ');
   if (id === null) return;
@@ -59,7 +59,7 @@ function afficherMenu() {
   console.log(`Relevé ${saisie.id} ajouté. Le journal compte ${releves.length} relevé(s).`);
 }
 
-function lister(releves) {
+/*function lister(releves) {
   console.log(`--- Liste des relevés (${releves.length}) ---`);
   console.log(listerReleves(releves));
 }
