@@ -112,7 +112,7 @@ async function trier(releves) {
   
 }
 
-/*function synthese(releves) {
+function synthese(releves) {
   console.log('--- Synthèse de la série ---');
   console.log(`Nombre de relevés : ${releves.length}`);
 
@@ -138,7 +138,7 @@ async function trier(releves) {
   console.log("  - L'humidité relative de l'air (en %) n'est pas l'humidité du sol.");
 }
 
-async function supprimer(releves) {
+/*async function supprimer(releves) {
   const saisi = await demander('Identifiant : ');
   if (saisi === null) return;
   const id = saisi.toUpperCase();
