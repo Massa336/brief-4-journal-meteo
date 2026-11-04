@@ -59,7 +59,7 @@ async function ajouter(releves) {
   console.log(`Relevé ${saisie.id} ajouté. Le journal compte ${releves.length} relevé(s).`);
 }
 
-/*function lister(releves) {
+function lister(releves) {
   console.log(`--- Liste des relevés (${releves.length}) ---`);
   console.log(listerReleves(releves));
 }
@@ -92,7 +92,7 @@ async function rechercher(releves) {
   }
 }
 
-async function trier(releves) {
+/*async function trier(releves) {
   console.log(`--- Trier ---`);
   console.log(`1.Par température croissante`);
   console.log(`2.Pluie croissante`);
