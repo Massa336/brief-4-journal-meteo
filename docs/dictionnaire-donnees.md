@@ -4,12 +4,12 @@
 
 | Champ | Signification | Type | Règle de validation | Unité | Exemple |
 | --- | --- | --- | --- | --- | --- |
-| `id` | Identifiant unique | texte | non vide, absent des données | — | ✏️ |
-| ✏️ | | | | | |
-| ✏️ | | | | | |
-| ✏️ | | | | | |
-| ✏️ | | | | | |
+| `id` | identifiant unique | texte | non vide, absent des données |aucune| D1902 |
+|date  |date du releve|date |forme AAAA-MM-JJ |aucune |2026-10-24 |
+| temperatureC |temperature de l'air |nombre|nombre valide |°C |26,8 |
+| pluieMm|quantite de pluie |entier |entier >=0 |mm |12 |
+| humiditeAirPct |humidite de l'air |nombre |entre 0 et 100|%|89 |
 
-**Listes de valeurs autorisées** : ✏️
+**Listes de valeurs autorisées** : Aucune
 
-**Sources** : ✏️
+**Sources** :  SUJET.md (section « Les données »), donnees/releves.json, fiche de station remise par le coach agronomie.
