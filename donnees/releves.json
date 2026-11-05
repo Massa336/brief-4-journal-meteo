@@ -14,13 +14,6 @@
     "humiditeAirPct": 78
   },
   {
-    "id": "M03",
-    "date": "2026-10-17",
-    "temperatureC": 26,
-    "pluieMm": 12,
-    "humiditeAirPct": 82
-  },
-  {
     "id": "M04",
     "date": "2026-10-18",
     "temperatureC": 29,
@@ -68,5 +61,12 @@
     "temperatureC": 30,
     "pluieMm": 2,
     "humiditeAirPct": 74
+  },
+  {
+    "id": "M03",
+    "date": "2026-10-17",
+    "temperatureC": 26,
+    "pluieMm": 12,
+    "humiditeAirPct": 82
   }
 ]
